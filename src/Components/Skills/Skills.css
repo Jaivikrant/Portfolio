@@ -1,0 +1,25 @@
+.skills-container{
+    margin-top: 5vh;
+    padding-bottom: 10vh;
+}
+.skills-title{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.skills-underline{
+    height: 5px;
+    background-color: #673ab766;
+    margin-bottom: 10vh; 
+    margin-left: 39vw;
+    width: 12vw;
+}
+.skills-inner-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20%,1fr));
+    
+}
+

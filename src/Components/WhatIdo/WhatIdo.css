@@ -1,0 +1,34 @@
+.whatido-container{
+    padding-top: 15vh;
+    margin-bottom: 3vh;
+}
+.whatido-title{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+       
+}
+.whatido-main-content{
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+}
+.whatido-main-container:hover{
+    cursor: pointer;
+    background-color: var(--bs-indigo);
+    color: white;
+    font-size: 1.2rem;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px var(--bs-indigo);
+    border: none;
+}
+.whatido-underline{
+    height: 5px;
+    background-color: #673ab766;
+    margin-bottom: 5vh; 
+    margin-left: 35vw;
+    width: 19vw;
+}
+

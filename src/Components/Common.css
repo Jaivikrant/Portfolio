@@ -1,0 +1,13 @@
+.common-width{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.Mylinks{
+    text-decoration: none;
+}
+.dividerline{
+    height: 1px;
+    background-color: var(--bs-gray-200);
+    margin-bottom: 3vh;
+    box-shadow: 0 0 3px var(--bs-indigo);
+}
