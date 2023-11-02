@@ -1,6 +1,6 @@
 .common-width{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 .Mylinks{
     text-decoration: none;
@@ -11,3 +11,19 @@
     margin-bottom: 3vh;
     box-shadow: 0 0 3px var(--bs-indigo);
 }
+@media only screen
+and (max-width: 480px) and (orientation: portrait) {
+.common-width{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+}
+@media only screen and (min-width:480px)
+and (max-width: 820px){
+    .common-width{
+
+        padding-left: 5vw;
+    padding-right: 5vw;
+    }  
+}
+

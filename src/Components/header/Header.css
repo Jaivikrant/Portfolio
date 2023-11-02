@@ -38,8 +38,17 @@ li{
 }
 .newlink{
     text-decoration: none;
+    color: black;
 }
 .Resume-1{
     text-decoration:none;
     color: blueviolet;
+}
+@media only screen and (min-width: 320px) 
+and (max-width: 480px){
+    .header-container{
+        width: 100vw;
+
+    }
+
 }

@@ -11,7 +11,7 @@ const WhatIdocard = ({list}) => {
     return<>
     <div className='whatido-card-container'> 
     <span className='whatido-tick'>✔</span>
-    <div>{item.Description}</div>
+    <div className='desc'>{item.Description}</div>
     </div>
     </>
     

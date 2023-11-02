@@ -10,12 +10,12 @@ const ProfileSection = () => {
 
         <div className="profileSection-left ">
           <h1>Hi, I'm Jai Vikrant Yadav</h1>
-          <p>A passionate Full Stack Software Developer 🚀 having a <br />
+          <p className='p'>A passionate Full Stack Software Developer 🚀 having a <br />
             special interest in Frontend technologies and experience of <br />
             building Web applications with JavaScript / Reactjs / Material UI <br />
             and some other cool libraries and frameworks.</p>
           <div className='profile-buttons'>
-            <a className="Mylinks" href="https://www.linkedin.com/in/jai-vikrant-yadav-409353203/">
+            <a className="Mylinks" href="https://www.linkedin.com/in/jai-vikrant-yadav-409353203/" target="blank">
               <button ><LinkedInIcon />View on LinkedIn</button>
             </a>
           </div>

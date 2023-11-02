@@ -51,9 +51,8 @@ const Skills = () => {
         <>
           <div className="seperator" id="skills-id"></div>
 
-        <div className="skills-container common-width" >
+        <div className="skills-container" >
             <h2 className="skills-title">Skills🔥</h2>
-            <div className="skills-underline"></div>
             <div className="skills-inner-container common-width">
             <SkillsCard MySkills={Myskills}/>
 

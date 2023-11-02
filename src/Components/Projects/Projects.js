@@ -4,9 +4,8 @@ import desimeals from "../Pictures2/Desimeals.png";
 
 const Projects = () => {
   return (
-    <div className="common-width" className="project-main" id="project-id">
+    <div className="common-width project-main" id="project-id">
     <h2 class="project-title">Projects 💻 </h2>
-    <div className="project-underline"></div>
     <div className="project-container">
     <a className="project-link" href="https://taupe-pastelito-9e63a6.netlify.app/" target="blank">
 

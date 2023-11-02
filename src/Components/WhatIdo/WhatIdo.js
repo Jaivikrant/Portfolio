@@ -29,7 +29,7 @@ const Mydata = [
     },
     {
         id: 6,
-        Description: "Convert Figma anf PhotoShop Designs into responsive Web Pages",
+        Description: "Convert Figma and PhotoShop Designs into responsive Web Pages",
     },
 ]
 const WhatIdo = () => {
@@ -41,9 +41,7 @@ const WhatIdo = () => {
 
                
                     <h2 className="whatido-title">What I do ?👩‍💻</h2>
-                    <div className="whatido-underline">
-                        <div></div>
-                    </div>
+                    
                 <div className="whatido-main-content">
                     <WhatIdocard list={Mydata} />
                 </div>

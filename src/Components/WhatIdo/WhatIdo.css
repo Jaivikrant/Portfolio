@@ -32,3 +32,30 @@
     width: 19vw;
 }
 
+
+@media only screen 
+and (max-width: 480px) and (orientation: portrait) {
+
+.whatido-main-content{
+   display: flex;
+   flex-direction: column;
+   width: 90vw;
+}
+
+}
+
+@media only screen and (min-width:480px)
+and (max-width: 820px){
+    .whatido-container{
+        padding-top: 5vh;
+        margin-bottom: 3vh;
+    }
+    .whatido-main-content{
+        width: 90vw;
+        display:grid;
+        gap:1rem;
+        grid-template-columns: repeat(auto-fit,minmax(45%,1fr));
+     }
+     
+ 
+}

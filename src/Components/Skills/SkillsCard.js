@@ -6,7 +6,7 @@ const SkillsCard = ({ MySkills }) => {
         <>
             {MySkills.map((skill) => {
                 return <>
-                    <div className="skill-container common-width">
+                    <div className="skill-container">
                         <div className="skills-card-container  ">
                             <img className="SkillLogo" src={skill.Skill_img} alt="HTML Logo" />
                         </div>

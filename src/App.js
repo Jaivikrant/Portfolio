@@ -4,19 +4,18 @@ import ProfileSection from './Components/ProfileSection/ProfileSection';
 import Projects from './Components/Projects/Projects';
 import Aboutme from './Components/About Me/Aboutme';
 import Contact from './Components/Contact/Contact';
-
+import WhatIdo from './Components/WhatIdo/WhatIdo';
+import Skills from './Components/Skills/Skills';
 
 
 function App() {
   return (
     <>
- <Header /> 
     
 <ProfileSection/> 
- <Aboutme/> 
-
-
 <Aboutme/>
+<WhatIdo/>
+    <Skills/>
 <Projects />
 <Contact/>
   
